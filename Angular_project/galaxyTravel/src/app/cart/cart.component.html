@@ -1,0 +1,14 @@
+<br>
+<br>
+<br>
+<h3 class="text-white">Cart</h3>
+
+<div class="cart-item card" style="width: 18rem;" *ngFor="let item of items">
+    <img src="{{ item.image }}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text"> {{ item.name }} </p>
+        <p class="card-text"> {{ item.price | currency }} </p>
+    </div>
+</div>
+<br>
+<button type="button" class="btn btn-danger btn-lg btn-block">Purchase</button>

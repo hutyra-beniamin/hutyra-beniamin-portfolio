@@ -1,0 +1,8 @@
+#hero {
+    width: 100%;
+    color: white;
+    background-image: url("/assets/img/galaxy.jpg");
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
